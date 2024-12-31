@@ -35,33 +35,33 @@ The program takes user input, performs calculations on arrays, and displays the 
 
 ---
 
-# Program Structure
+## Program Structure
 
-## 1. Welcome Message
+### 1. Welcome Message
 - Displays a welcome prompt to the user.
 - Introduces the program functionality.
 
-## 2. Array Initialization
+### 2. Array Initialization
 - Sets up registers for array operations.
 - Prepares arrays A1, A2, and A3 for subsequent operations.
 
-## 3. Input Loop
+### 3. Input Loop
 - Prompts the user for positive integers to populate Array 2 (A2).
 - Uses auto-indexing to store user input directly into A2.
 
-## 4. Calculation Loop
+### 4. Calculation Loop
 - Computes each element of Array 3 (A3) as `A3[i] = A1[i] * A2[i]`.
 - Utilizes ARM's multiplication instruction (`mul`).
 
-## 5. Output Routine
+### 5. Output Routine
 - Prints the contents of Arrays A1, A2, and A3.
 - Uses a dedicated subroutine (`printarray`) for array traversal and display.
 
-## 6. Subroutine: `printarray`
+### 6. Subroutine: `printarray`
 - Prints the elements of an array.
 - Loops through the array using auto-indexing and stack operations (`push`/`pop`) to preserve register states.
 
-## 7. Exit Routine
+### 7. Exit Routine
 - Safely exits the program using system call (`svc 0`).
 
 ---
