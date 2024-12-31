@@ -9,6 +9,8 @@ This project is an ARM assembly program that performs operations on arrays. It d
 
 The program takes user input, performs calculations on arrays, and displays the results. It emphasizes proper structuring, documentation, and ARM assembly techniques.
 
+---
+
 ## Features
 
 ### 1. Array Initialization
@@ -30,6 +32,8 @@ The program takes user input, performs calculations on arrays, and displays the 
 ### 5. Subroutine for Printing
 - Implements a reusable subroutine to display arrays.
 - Utilizes stack operations (`push` and `pop`) to preserve register states.
+
+---
 
 # Program Structure
 
@@ -62,16 +66,6 @@ The program takes user input, performs calculations on arrays, and displays the 
 
 ---
 
-# Data Section
-
-## Prompts and Labels
-- Strings for user prompts, array labels, and formatting.
-
-## Arrays
-- **ARR1:** Pre-initialized values.
-- **ARR2:** Placeholder for user input.
-- **ARR3:** Placeholder for calculation results.
-- 
 ## Example Output
 ```plaintext
 Welcome to the array program.
